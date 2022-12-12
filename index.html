@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.72.0">
+    <title>Masonry example · Bootstrap</title>
+
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/masonry/">
+
+
+
+    <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+
+    <!-- Favicons -->
+
+
+
+    <meta name="theme-color" content="#7952b3">
+
+    <!-- Boxicons CSS -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        /* Persona */
+        .title__header {
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: .2rem;
+        }
+        
+        .listCard li::marker {
+            content: url(./public/media/heart-circle-regular-24.png);
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="title__header">
+            <i class='bx bxs-heart-circle' ></i>
+            For You Angel
+        </h1>
+        <hr class="my-5">
+        <div class="row" data-masonry='{"percentPosition": true }'>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">;-;</h5>
+                        <p class="card-text">
+                            Quanto mais eu te conheço, mais eu tenho certeza de que eu nn vou conhecer outra pessoa tão especial igual a você^-^
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card p-3">
+                    <figure class="p-3 mb-0">
+                        <blockquote class="blockquote">
+                            <p>
+                                Você foi A única pessoa que eu deixei me conhecer de verdade...
+                            </p>
+                        </blockquote>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sabe...</h5>
+                        <p class="card-text">
+                            Toda vez que nós passamos uma parte do dia juntos eu volto tão feliz para casa!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card bg-primary text-white text-center p-3">
+                    <figure class="mb-0">
+                        <blockquote class="blockquote">
+                            <p>(ง‍‍ᗣ‍‍‿‍‍ᗣ‍‍)ง‍ <br>
+                            "Eu sei que a vida é feita de ciclos e que as pessoas são passageiras, mas se eu pudesse escolher, eu imploraria te ter para sempre aqui do jeito que for, pois estar perto de ti me faz tão bem;-;"
+                        </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mb-0 text-white">
+                            Por <cite title="Source Title">anonymous</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">^-^</h5>
+                        <p class="card-text">Eu prometo dizer <strong>eu te amo</strong> todas as noites e provar isso todos os dias.</p>
+                        <p class="card-text"><small class="text-muted">Vito</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card">
+                    <!-- <svg class="bd-placeholder-img card-img" width="100%" height="260"
+                        xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: Card image"
+                        preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#868e96" /><text x="50%" y="50%" fill="#dee2e6"
+                            dy=".3em">Card image</text>
+                    </svg> -->
+                    <img src="./public/media/love_center.jpg" class="bd-placeholder-img imgCenterLove card-img" alt="Error">
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card p-3 text-right">
+                    <figure class="mb-0">
+                        <blockquote class="blockquote">
+                            <p>I hope you know how happy our little conversation me &lt;3</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mb-0 text-muted">
+                            <cite title="Source Title">Vito</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Se ninguém te falou isso hoje eu te falo:</h5>
+                        <p class="card-text">
+                            <ul class="listCard">
+                                <li>Você é linda...</li>
+                                <li>Você é fofa...</li>
+                                <li>Você é rara...</li>
+                                <li>Você é maravilhosa...</li>
+                                <li>Você é incrivel...</li>
+                                <li>Você é especial...</li>
+                                <li>Você é muito especial mesmo...</li>
+                            </ul>
+                        </p>
+                        <p class="card-text"><small class="text-muted">Vito</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+        crossorigin="anonymous"
+    ></script>
+</body>
+
+</html>
